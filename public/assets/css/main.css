@@ -1,0 +1,408 @@
+/* common css */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Mono:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* common css */
+
+/* ===============navbar start=============== */
+
+.navbar_bg {
+    background-color: RGB(255, 255, 240);
+    box-shadow: 0px -15px 25px 0px #888888;
+}
+
+.navbar_bg .navbar-brand {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.navbar_bg .navbar-nav .nav-item .nav-link {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.navbar_bg .navbar-nav .nav-item .nav-link:hover {
+    color: #0D6EFD;
+}
+
+.navbar_bg .navbar-nav .nav-item .nav-link.active {
+    color: #0D6EFD;
+}
+
+/* ===============navbar end=============== */
+
+/* ===============spinner start=============== */
+
+.spinner_bg .spinner_body {
+    height: 80vh;
+}
+
+/* ===============spinner end=============== */
+
+/* ===============hero start=============== */
+
+.hero {
+    padding: 0 0 10rem 0;
+}
+
+.hero .hero_col {
+    padding: 8rem 0 0 0;
+}
+
+.hero .design_development_marketing {
+    background: linear-gradient(90deg, #0D6EFD 20%, #FF0084 80%, #FF0084 80%);
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    padding: .1rem .3rem;
+    border-radius: 5px;
+}
+
+.hero .p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hero .h1 {
+    font-size: 40px;
+    font-weight: 700;
+    background: linear-gradient(166deg, #0D6EFD 0%, #FF0084 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero .img_col {
+    padding: 7rem 0 0 0;
+}
+
+.hero .img_div_box {
+    position: relative;
+}
+
+.hero .img_div_box .img_div_left_1,
+.img_div_right_1 {
+    width: .9em;
+    height: 4em;
+    border: 5px dotted rgb(13, 110, 253);
+}
+
+.hero .img_div_box .img_div_left_1 {
+    position: absolute;
+    left: -20px;
+    bottom: 10px;
+}
+
+.hero .img_div_box .img_div_right_1 {
+    position: absolute;
+    top: 50px;
+    right: -20px;
+}
+
+.hero .img_div_box .img_div {
+    background: rgb(13, 110, 253);
+    background: -moz-linear-gradient(-50deg, rgba(13, 110, 253, 1) 0%, rgba(255, 0, 132, 1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(13, 110, 253, 1) 0%, rgba(255, 0, 132, 1) 100%);
+    background: linear-gradient(135deg, rgba(13, 110, 253, 1) 20%, rgba(255, 0, 132, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0d6efd', endColorstr='#ff0084', GradientType=1);
+    width: 19em;
+    height: 16em;
+    position: relative;
+    border-radius: 20px;
+}
+
+.hero .img_div_box .img_div_left_2,
+.img_div_right_2 {
+    width: .9em;
+    height: 4em;
+    border: 5px dotted #fff;
+    position: absolute;
+}
+
+.hero .img_div_box .img_div_left_2 {
+    left: 5px;
+    bottom: 40px;
+}
+
+.hero .img_div_box .img_div_right_2 {
+    right: 5px;
+    top: 20px;
+}
+
+.hero .img_div_box .img_div img {
+    font-size: 40px;
+    font-weight: 700;
+    height: 7.9em;
+    width: 7em;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media only screen and (max-width: 767px) {
+    /* .hero .hero_col {
+        padding: 3rem 0 0 0;
+    } */
+}
+
+/* about start */
+.about_bg {
+    background-color: rgba(255, 228, 196, 0.18);
+}
+
+.about_bg h2 {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    background: linear-gradient(70deg, #0D6EFD 35%, #FF0084 60%, #FF0084 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.about_bg h6 {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.about_bg p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.about_bg .icon {
+    font-size: 30px;
+}
+
+.about_bg .icon i {
+    background: linear-gradient(130deg, #0D6EFD 20%, #FF0084 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* about end */
+
+/* ===============hero end=============== */
+
+/* ===============resume start=============== */
+.resume_bg h2 {
+    font-size: 35px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #0D6EFD 30%, #FF0084 60%, #FF0084 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.resume_bg h3 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume_bg .main_col>.card {
+    /* box-shadow: 0px 0px 3px 0px #888888; */
+    box-shadow: 0px 4px 8px -5px rgba(92, 92, 92, 0.75);
+    -webkit-box-shadow: 0px 4px 8px -5px rgba(92, 92, 92, 0.75);
+    -moz-box-shadow: 0px 4px 8px -5px rgba(92, 92, 92, 0.75);
+}
+
+/* experience start */
+.resume_bg .experience_left_col>.experience_card {
+    background-color: rgba(255, 228, 196, 0.18);
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+}
+
+.resume_bg .experience_left_col>.experience_card h5 {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.resume_bg .experience_left_col>.experience_card h6 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.resume_bg .experience_left_col>.experience_card span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* experience end */
+
+/* education start */
+.resume_bg .education_left_col>.education_card {
+    background-color: rgba(255, 228, 196, 0.18);
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+}
+
+.resume_bg .education_left_col>.education_card h5 {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.resume_bg .education_left_col>.education_card .h6 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.resume_bg .education_left_col>.education_card span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* education end */
+/* skill start */
+.resume_bg .skill_card {
+    box-shadow: 0px 4px 8px -5px rgba(92, 92, 92, 0.75);
+    -webkit-box-shadow: 0px 4px 8px -5px rgba(92, 92, 92, 0.75);
+    -moz-box-shadow: 0px 4px 8px -5px rgba(92, 92, 92, 0.75);
+}
+
+.resume_bg .skill_card .skill_icon {
+    background: rgb(13, 110, 253);
+    background: linear-gradient(145deg, rgba(13, 110, 253, 1) 14%, rgba(163, 0, 255, 1) 54%, rgba(255, 0, 132, 1) 97%);
+    padding: .5rem;
+    color: white;
+    border-radius: 5px;
+}
+
+.resume_bg .skill_card .skill_icon i {
+    font-size: 20px;
+}
+
+.resume_bg .skill_card .h4 {
+    font-size: 25px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #0D6EFD 20%, #e600ff 60%, #FF0084 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.resume_bg .skill_card .professon_cards {
+    background-color: rgba(255, 228, 196, 0.18);
+}
+
+/* skill end */
+
+/* ===============resume end=============== */
+
+
+/* ===============project start=============== */
+
+.project_bg h2 {
+    font-size: 35px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #0D6EFD 30%, #FF0084 60%, #FF0084 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    /* -webkit-background-clip: text;
+-webkit-text-fill-color: transparent; */
+
+}
+
+.projects_card .img_col {
+    /* background-image: url('https://dummyimage.com/300x400/000/fff.png');
+    width: 100%;
+    height: 100%; */
+    /* height: 45vh; */
+}
+
+.projects_card h4 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.projects_card p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.projects_card img {
+    height: 45vh;
+    width: 100%;
+}
+
+.build_bg {
+    background: rgb(13, 110, 253);
+    background: linear-gradient(145deg, rgba(13, 110, 253, 1) 14%, rgba(163, 0, 255, 1) 54%, rgba(255, 0, 132, 1) 97%);
+}
+
+.build_bg h2 {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* ===============project end=============== */
+
+/* ===============contact start=============== */
+
+.contact .card .card-body {
+    background-color: rgb(248, 248, 248);
+    border: 1px solid rgb(248, 248, 248);
+    border-radius: 5px;
+}
+
+.contact .card .card-body .text_body span {
+    background: rgb(13, 110, 253);
+    background: linear-gradient(145deg, rgba(13, 110, 253, 1) 14%, rgba(163, 0, 255, 1) 54%, rgba(255, 0, 132, 1) 97%);
+    padding: .5rem .7rem;
+    color: white;
+    border-radius: 5px;
+}
+
+.contact .card .card-body h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.contact .card .card-body p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* ===============contact end=============== */
+
+
+/* backend start */
+.sidebar_nav {
+    height: 100vh;
+}
+
+.sidebar_nav .nav-item .nav-link {
+    color: white;
+}
+.sidebar_nav .nav-item .nav-link.active {
+    color: green;
+}
+
+/* content */
+.content_col {
+    height: 100%;
+}
+/* backend end */
